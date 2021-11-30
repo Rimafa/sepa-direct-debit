@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02">
+  <CstmrDrctDbtInitn>
+      <GrpHdr>
+          <MsgId>ISATIS Capital</MsgId>
+          <CreDtTm>2021-11-02T11:45:48</CreDtTm>
+          <NbOfTxs>1</NbOfTxs>
+          <CtrlSum>1</CtrlSum>
+          <InitgPty>
+              <Nm>ISATIS Capital</Nm>
+            </InitgPty>
+        </GrpHdr>
+        <PmtInf>
+            <PmtInfId>RUM0469214263</PmtInfId>
+            <PmtMtd>DD</PmtMtd>
+            <BtchBookg>false</BtchBookg>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>1</CtrlSum>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>CORE</Cd>
+                </LclInstrm>
+                <SeqTp>OOFF</SeqTp>
+            </PmtTpInf>
+            <ReqdColltnDt>2021-12-03</ReqdColltnDt>
+            <Cdtr>
+                <Nm>ISATIS EXPANSION N8</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>FR7611808009310003103004090</IBAN>
+                </Id>
+            </CdtrAcct>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BIC>CMCIFRPA</BIC>
+                </FinInstnId>
+            </CdtrAgt>
+            <ChrgBr>SLEV</ChrgBr>
+            <CdtrSchmeId>
+                <Id>
+                    <PrvtId>
+                        <Othr>
+                            <Id>FR36ZZZ87F54E</Id>
+                            <SchmeNm>
+                                <Prtry>SEPA</Prtry>
+                            </SchmeNm>
+                        </Othr>
+                    </PrvtId>
+                </Id>
+            </CdtrSchmeId>
+            <DrctDbtTxInf>
+                <PmtId>
+                    <InstrId>RUM0469214263</InstrId>
+                    <EndToEndId>RUM0469214263</EndToEndId>
+                </PmtId>
+                <InstdAmt Ccy="EUR">1</InstdAmt>
+                <DrctDbtTx>
+                    <MndtRltdInf>
+                        <MndtId>RUM0469214263</MndtId>
+                        <DtOfSgntr>2021-10-20</DtOfSgntr>
+                    </MndtRltdInf>
+                </DrctDbtTx>
+                <DbtrAgt>
+                    <FinInstnId>
+                        <Othr>
+                            <Id>NOTPROVIDED</Id>
+                        </Othr>
+                    </FinInstnId>
+                </DbtrAgt>
+                <Dbtr>
+                    <Nm>Deforges Louis</Nm>
+                </Dbtr>
+                <DbtrAcct>
+                    <Id>
+                        <IBAN>FR3330002005010000086716Y28</IBAN>
+                    </Id>
+                </DbtrAcct>
+                <RmtInf>
+                    <Ustrd>RUM0469214263</Ustrd>
+                </RmtInf>
+            </DrctDbtTxInf>
+        </PmtInf>
+    </CstmrDrctDbtInitn>
+</Document>
